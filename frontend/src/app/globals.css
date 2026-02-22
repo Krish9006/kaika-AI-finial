@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+:root {
+  /* Peace of Mind Theme */
+  --background: #F3EFE9; /* Warm Cream */
+  --foreground: #2D1B2D; /* Deep Purple */
+
+  --primary: #4A2B4A; /* Lighter Purple/Mauve */
+  --secondary: #D4B483; /* Gold/Beige Accent */
+
+  --surface: #FFFFFF;
+  --border: #E5E0D8;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-surface: var(--surface);
+  --color-border: var(--border);
+
+  /* Typography */
+  --font-serif: var(--font-playfair), serif;
+  --font-sans: var(--font-inter), sans-serif;
+
+  --radius-xl: 1.5rem;
+  --radius-2xl: 2rem;
+  --radius-full: 9999px;
+  
+  /* Custom Animations if needed */
+  @keyframes fade-in-up {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
