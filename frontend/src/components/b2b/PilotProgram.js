@@ -17,7 +17,7 @@ export default function PilotProgram() {
 
                     {/* Step 1 */}
                     <div className="relative group">
-                        <div className="w-24 h-24 mx-auto bg-white rounded-[2rem] flex items-center justify-center text-2xl font-bold text-indigo-600 shadow-lg shadow-indigo-100 border border-slate-100 mb-8 relative z-10">
+                        <div className="w-24 h-24 mx-auto bg-surface rounded-[2rem] flex items-center justify-center text-2xl font-bold text-indigo-600 shadow-lg shadow-indigo-100 border border-slate-100 mb-8 relative z-10">
                             1
                             <div className="absolute inset-0 rounded-[2rem] border-2 border-indigo-50" />
                         </div>
@@ -29,7 +29,7 @@ export default function PilotProgram() {
 
                     {/* Step 2 */}
                     <div className="relative group">
-                        <div className="w-24 h-24 mx-auto bg-white rounded-[2rem] flex items-center justify-center text-2xl font-bold text-purple-600 shadow-lg shadow-purple-100 border border-slate-100 mb-8 relative z-10">
+                        <div className="w-24 h-24 mx-auto bg-surface rounded-[2rem] flex items-center justify-center text-2xl font-bold text-purple-600 shadow-lg shadow-purple-100 border border-slate-100 mb-8 relative z-10">
                             2
                             <div className="absolute inset-0 rounded-[2rem] border-2 border-purple-50" />
                         </div>
@@ -41,7 +41,7 @@ export default function PilotProgram() {
 
                     {/* Step 3 */}
                     <div className="relative group">
-                        <div className="w-24 h-24 mx-auto bg-white rounded-[2rem] flex items-center justify-center text-2xl font-bold text-emerald-600 shadow-lg shadow-emerald-100 border border-slate-100 mb-8 relative z-10">
+                        <div className="w-24 h-24 mx-auto bg-surface rounded-[2rem] flex items-center justify-center text-2xl font-bold text-emerald-600 shadow-lg shadow-emerald-100 border border-slate-100 mb-8 relative z-10">
                             3
                             <div className="absolute inset-0 rounded-[2rem] border-2 border-emerald-50" />
                         </div>
@@ -53,7 +53,7 @@ export default function PilotProgram() {
                 </div>
 
                 <div className="mt-20 text-center">
-                    <button className="bg-white text-slate-900 border border-slate-200 px-8 py-4 rounded-full font-bold shadow-lg shadow-slate-200/50">
+                    <button className="bg-surface text-slate-900 border border-slate-200 px-8 py-4 rounded-full font-bold shadow-lg shadow-slate-200/50">
                         See detailed pilot breakdown
                     </button>
                 </div>

@@ -72,7 +72,7 @@ export default function SurveyModal({ isOpen, onClose, onOpenEarlyAccess }) {
             ></div>
 
             {/* Modal Content */}
-            <div className="relative bg-white rounded-3xl max-w-2xl w-full p-8 md:p-12 shadow-2xl overflow-y-auto max-h-[90vh]">
+            <div className="relative bg-surface rounded-3xl max-w-2xl w-full p-8 md:p-12 shadow-2xl overflow-y-auto max-h-[90vh]">
                 <button
                     onClick={onClose}
                     className="absolute top-6 right-6 text-slate-400 hover:text-slate-600 transition-colors"
@@ -112,7 +112,7 @@ export default function SurveyModal({ isOpen, onClose, onOpenEarlyAccess }) {
 
                         <button
                             onClick={handleStart}
-                            className="bg-slate-900 hover:bg-slate-800 text-white font-bold px-10 py-4 rounded-full shadow-xl shadow-slate-900/20 active:scale-95 transition-all text-lg"
+                            className="bg-slate-900 hover:bg-slate-800 text-background font-bold px-10 py-4 rounded-full shadow-xl shadow-slate-900/20 active:scale-95 transition-all text-lg"
                         >
                             Begin the Reflection
                         </button>
@@ -184,7 +184,7 @@ export default function SurveyModal({ isOpen, onClose, onOpenEarlyAccess }) {
                         <div className="space-y-4">
                             <button
                                 onClick={handleFinish}
-                                className="w-full bg-slate-900 hover:bg-slate-800 text-white font-bold py-4 rounded-xl shadow-xl shadow-slate-900/20 active:scale-[0.98] transition-all"
+                                className="w-full bg-slate-900 hover:bg-slate-800 text-background font-bold py-4 rounded-xl shadow-xl shadow-slate-900/20 active:scale-[0.98] transition-all"
                             >
                                 Join Early Access to Go Deeper
                             </button>

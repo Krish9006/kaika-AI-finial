@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 
 export default function B2BPage() {
     return (
-        <main className="bg-white text-slate-900 overflow-x-hidden">
+        <main className="bg-surface text-slate-900 overflow-x-hidden">
             <B2BHero />
             <OrganizationalProblem />
             <PilotProgram />

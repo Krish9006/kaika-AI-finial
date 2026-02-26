@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function B2BHero() {
     return (
-        <section className="relative flex flex-col pt-20 pb-12 px-6 md:px-12 overflow-hidden bg-white/50 backdrop-blur-3xl min-h-[auto] lg:min-h-[110vh]">
+        <section className="relative flex flex-col pt-20 pb-12 px-6 md:px-12 overflow-hidden bg-surface/50 backdrop-blur-3xl min-h-[auto] lg:min-h-[110vh]">
 
             {/* Subtle Gradient Orbs */}
             <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none -z-10">
@@ -12,7 +12,7 @@ export default function B2BHero() {
             </div>
 
             {/* Navigation - Aligned with Content */}
-            <nav className="fixed top-6 left-1/2 -translate-x-1/2 w-[95%] md:w-[90%] max-w-7xl z-50 bg-white/70 backdrop-blur-xl rounded-full px-4 py-3 md:px-6 md:py-4 flex justify-between items-center shadow-sm border border-white/60">
+            <nav className="fixed top-6 left-1/2 -translate-x-1/2 w-[95%] md:w-[90%] max-w-7xl z-50 bg-surface/70 backdrop-blur-xl rounded-full px-4 py-3 md:px-6 md:py-4 flex justify-between items-center shadow-sm border border-background/60">
                 <div className="flex items-center gap-2 md:gap-4">
                     <div className="relative w-8 h-8 md:w-10 md:h-10 rounded-full overflow-hidden border border-black/5 shadow-sm">
                         <Image src="/logo.jpeg" alt="Logo" fill className="object-cover" />
@@ -26,7 +26,7 @@ export default function B2BHero() {
                     <a href="#security" className="text-sm font-semibold text-slate-500 hover:text-indigo-600 transition-colors">Security</a>
                 </div>
 
-                <button className="bg-slate-900 text-white px-5 py-2.5 md:px-8 md:py-3 rounded-full text-xs md:text-sm font-semibold hover:bg-slate-800 transition-all shadow-lg shadow-slate-900/10 active:scale-95">
+                <button className="bg-slate-900 text-background px-5 py-2.5 md:px-8 md:py-3 rounded-full text-xs md:text-sm font-semibold hover:bg-slate-800 transition-all shadow-lg shadow-slate-900/10 active:scale-95">
                     Contact Sales
                 </button>
             </nav>
@@ -52,10 +52,10 @@ export default function B2BHero() {
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-4 justify-start">
-                        <button className="bg-slate-900 text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-slate-800 transition-all shadow-xl shadow-slate-900/20 hover:-translate-y-1 active:scale-95 flex items-center gap-2 justify-center">
+                        <button className="bg-slate-900 text-background px-8 py-4 rounded-full font-bold text-lg hover:bg-slate-800 transition-all shadow-xl shadow-slate-900/20 hover:-translate-y-1 active:scale-95 flex items-center gap-2 justify-center">
                             Inquire for Pilot
                         </button>
-                        <button className="bg-white text-slate-600 border border-slate-200 px-8 py-4 rounded-full font-bold text-lg hover:bg-slate-50 hover:text-slate-900 transition-all flex items-center gap-2 justify-center">
+                        <button className="bg-surface text-slate-600 border border-slate-200 px-8 py-4 rounded-full font-bold text-lg hover:bg-slate-50 hover:text-slate-900 transition-all flex items-center gap-2 justify-center">
                             View Sample Report
                         </button>
                     </div>

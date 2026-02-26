@@ -7,7 +7,7 @@ export default function Differentiation() {
     const [isExpanded, setIsExpanded] = useState(false);
 
     return (
-        <section className="py-16 md:py-32 bg-white relative overflow-hidden px-6 md:px-12">
+        <section className="py-16 md:py-32 bg-surface relative overflow-hidden px-6 md:px-12">
             <div className="max-w-7xl mx-auto relative z-10">
 
                 <div className="grid lg:grid-cols-2 gap-20 items-center mb-16 lg:mb-24">
@@ -29,7 +29,7 @@ export default function Differentiation() {
                                 { title: "Action Oriented", desc: "Focused on action and alignment, not endless introspection.", color: "bg-purple-500" }
                             ].map((item, i) => (
                                 <li key={i} className="flex gap-4 group">
-                                    <div className="w-12 h-12 rounded-2xl bg-white border border-slate-200 shadow-sm flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform duration-300">
+                                    <div className="w-12 h-12 rounded-2xl bg-surface border border-slate-200 shadow-sm flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform duration-300">
                                         <div className={`w-3 h-3 rounded-full ${item.color} shadow-sm`} />
                                     </div>
                                     <div>
@@ -55,7 +55,7 @@ export default function Differentiation() {
                             </div>
                         </div>
                         <div className="absolute bottom-16 left-0 right-0 text-center">
-                            <p className="text-lg lg:text-xl font-serif font-medium text-slate-900 drop-shadow-sm bg-white/60 px-6 py-2 rounded-full inline-block backdrop-blur-sm border border-white/40">"A slow, deliberate blooming."</p>
+                            <p className="text-lg lg:text-xl font-serif font-medium text-slate-900 drop-shadow-sm bg-surface/60 px-6 py-2 rounded-full inline-block backdrop-blur-sm border border-background/40">"A slow, deliberate blooming."</p>
                         </div>
                     </div>
                 </div>

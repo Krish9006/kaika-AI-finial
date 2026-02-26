@@ -23,34 +23,34 @@ const testimonials = [
 
 export default function Testimonials() {
     return (
-        <section className="py-16 md:py-24 px-6 md:px-16 bg-white">
+        <section className="py-16 md:py-24 px-6 md:px-16 bg-surface">
             <div className="max-w-6xl mx-auto">
 
                 <div className="mb-12">
-                    <span className="text-xs uppercase tracking-[0.2em] text-[#D4B483] font-bold mb-3 block">Community Stories</span>
-                    <h2 className="text-3xl md:text-4xl font-serif font-medium text-[#2D1B2D]">
-                        Heal, grow, and <span className="italic text-[#4A2B4A]">thrive.</span>
+                    <span className="text-xs uppercase tracking-[0.2em] text-secondary font-bold mb-3 block">Community Stories</span>
+                    <h2 className="text-3xl md:text-4xl font-serif font-medium text-foreground">
+                        Heal, grow, and <span className="italic text-primary">thrive.</span>
                     </h2>
                 </div>
 
                 <div className="grid md:grid-cols-3 gap-5">
                     {testimonials.map((t, index) => (
-                        <div key={index} className="bg-[#F3EFE9] border border-[#E5E0D8] p-7 rounded-2xl hover:shadow-md transition-all hover:-translate-y-0.5">
-                            <div className="flex gap-0.5 mb-4 text-[#D4B483]">
+                        <div key={index} className="bg-background border border-border p-7 rounded-2xl hover:shadow-md transition-all hover:-translate-y-0.5">
+                            <div className="flex gap-0.5 mb-4 text-secondary">
                                 {[...Array(t.stars)].map((_, i) => (
                                     <Star key={i} className="w-3.5 h-3.5 fill-current" />
                                 ))}
                             </div>
-                            <p className="text-[#2D1B2D]/75 leading-relaxed mb-6 font-serif text-base italic">
+                            <p className="text-foreground/75 leading-relaxed mb-6 font-serif text-base italic">
                                 &ldquo;{t.content}&rdquo;
                             </p>
                             <div className="flex items-center gap-3">
-                                <div className="w-8 h-8 rounded-full bg-[#2D1B2D] flex items-center justify-center text-white text-xs font-bold">
+                                <div className="w-8 h-8 rounded-full bg-foreground flex items-center justify-center text-background text-xs font-bold">
                                     {t.name[0]}
                                 </div>
                                 <div>
-                                    <p className="text-[#2D1B2D] font-semibold text-sm">{t.name}</p>
-                                    <p className="text-[#2D1B2D]/45 text-xs uppercase tracking-wider">{t.role}</p>
+                                    <p className="text-foreground font-semibold text-sm">{t.name}</p>
+                                    <p className="text-foreground/45 text-xs uppercase tracking-wider">{t.role}</p>
                                 </div>
                             </div>
                         </div>

@@ -1,6 +1,6 @@
 export default function OrganizationalProblem() {
     return (
-        <section className="py-16 md:py-24 bg-white relative overflow-hidden">
+        <section className="py-16 md:py-24 bg-surface relative overflow-hidden">
             {/* Background Decoration */}
             <div className="absolute left-0 top-1/4 w-64 h-64 bg-red-50 rounded-full blur-3xl opacity-60 pointer-events-none" />
 
@@ -21,7 +21,7 @@ export default function OrganizationalProblem() {
                 <div className="grid md:grid-cols-3 gap-8 text-center">
                     {/* Stat Card 1 */}
                     <div className="p-8 md:p-10 rounded-[2.5rem] bg-slate-50 border border-slate-100 group">
-                        <div className="w-20 h-20 mx-auto bg-white rounded-2xl shadow-sm flex items-center justify-center mb-6">
+                        <div className="w-20 h-20 mx-auto bg-surface rounded-2xl shadow-sm flex items-center justify-center mb-6">
                             <span className="text-4xl">📉</span>
                         </div>
                         <div className="text-5xl font-bold text-slate-900 mb-2 tracking-tight">48%</div>
@@ -30,18 +30,18 @@ export default function OrganizationalProblem() {
                     </div>
 
                     {/* Stat Card 2 */}
-                    <div className="p-8 md:p-10 rounded-[2.5rem] bg-indigo-600 text-white shadow-2xl shadow-indigo-200 transform md:-translate-y-4">
-                        <div className="w-20 h-20 mx-auto bg-white/10 rounded-2xl flex items-center justify-center mb-6 backdrop-blur-sm">
+                    <div className="p-8 md:p-10 rounded-[2.5rem] bg-indigo-600 text-background shadow-2xl shadow-indigo-200 transform md:-translate-y-4">
+                        <div className="w-20 h-20 mx-auto bg-surface/10 rounded-2xl flex items-center justify-center mb-6 backdrop-blur-sm">
                             <span className="text-4xl">🚀</span>
                         </div>
-                        <div className="text-5xl font-bold text-white mb-2 tracking-tight">2.5x</div>
+                        <div className="text-5xl font-bold text-background mb-2 tracking-tight">2.5x</div>
                         <div className="text-lg font-bold text-indigo-100 mb-4">Higher Retention</div>
                         <p className="text-indigo-100/80 font-medium leading-relaxed">For employees who find meaning and purpose in their daily work.</p>
                     </div>
 
                     {/* Stat Card 3 */}
                     <div className="p-8 md:p-10 rounded-[2.5rem] bg-slate-50 border border-slate-100 group">
-                        <div className="w-20 h-20 mx-auto bg-white rounded-2xl shadow-sm flex items-center justify-center mb-6">
+                        <div className="w-20 h-20 mx-auto bg-surface rounded-2xl shadow-sm flex items-center justify-center mb-6">
                             <span className="text-4xl">🎯</span>
                         </div>
                         <div className="text-5xl font-bold text-slate-900 mb-2 tracking-tight">60%</div>

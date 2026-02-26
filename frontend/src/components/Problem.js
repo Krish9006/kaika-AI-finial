@@ -19,7 +19,7 @@ export default function Problem() {
                 <div className="grid md:grid-cols-3 gap-6">
 
                     {/* Large Card */}
-                    <div className="md:col-span-2 bg-white p-6 md:p-8 rounded-[2rem] shadow-sm border border-slate-200 hover:shadow-xl transition-all group overflow-hidden relative min-h-[320px] md:min-h-0">
+                    <div className="md:col-span-2 bg-surface p-6 md:p-8 rounded-[2rem] shadow-sm border border-slate-200 hover:shadow-xl transition-all group overflow-hidden relative min-h-[320px] md:min-h-0">
                         <div className="absolute top-0 right-0 w-64 h-64 bg-red-500/5 rounded-full blur-[80px] -translate-y-1/2 translate-x-1/3" />
                         <div className="relative z-10 h-full flex flex-col justify-between">
                             <div>
@@ -42,16 +42,16 @@ export default function Problem() {
                     </div>
 
                     {/* Tall Card */}
-                    <div className="md:row-span-2 bg-indigo-600 p-6 md:p-8 rounded-[2rem] shadow-xl text-white flex flex-col justify-between relative overflow-hidden group">
+                    <div className="md:row-span-2 bg-indigo-600 p-6 md:p-8 rounded-[2rem] shadow-xl text-background flex flex-col justify-between relative overflow-hidden group">
                         <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/20" />
                         <div className="relative z-10 hidden md:block">
-                            <div className="w-full bg-white/10 backdrop-blur-md rounded-2xl p-4 border border-white/20 mb-6">
+                            <div className="w-full bg-surface/10 backdrop-blur-md rounded-2xl p-4 border border-background/20 mb-6">
                                 <div className="flex items-center gap-3 mb-3">
-                                    <div className="w-8 h-8 rounded-full bg-white/20" />
-                                    <div className="h-1.5 w-16 bg-white/20 rounded-full" />
+                                    <div className="w-8 h-8 rounded-full bg-surface/20" />
+                                    <div className="h-1.5 w-16 bg-surface/20 rounded-full" />
                                 </div>
-                                <div className="h-1.5 w-full bg-white/10 rounded-full mb-2" />
-                                <div className="h-1.5 w-2/3 bg-white/10 rounded-full" />
+                                <div className="h-1.5 w-full bg-surface/10 rounded-full mb-2" />
+                                <div className="h-1.5 w-2/3 bg-surface/10 rounded-full" />
                             </div>
                         </div>
                         <div className="relative z-10">
@@ -63,14 +63,14 @@ export default function Problem() {
                     </div>
 
                     {/* Small Card 1 */}
-                    <div className="bg-white p-6 rounded-[2rem] shadow-sm border border-slate-200 hover:border-indigo-200 transition-all group">
+                    <div className="bg-surface p-6 rounded-[2rem] shadow-sm border border-slate-200 hover:border-indigo-200 transition-all group">
                         <div className="w-10 h-10 bg-orange-100 rounded-xl flex items-center justify-center text-xl mb-3">🌫️</div>
                         <h3 className="text-lg font-bold mb-1">Mental Fog</h3>
                         <p className="text-sm text-slate-500">Disconnected from your own authentic voice.</p>
                     </div>
 
                     {/* Small Card 2 */}
-                    <div className="bg-white p-6 rounded-[2rem] shadow-sm border border-slate-200 hover:border-indigo-200 transition-all group">
+                    <div className="bg-surface p-6 rounded-[2rem] shadow-sm border border-slate-200 hover:border-indigo-200 transition-all group">
                         <div className="w-10 h-10 bg-blue-100 rounded-xl flex items-center justify-center text-xl mb-3">🔄</div>
                         <h3 className="text-lg font-bold mb-1">Burnout Cycle</h3>
                         <p className="text-sm text-slate-500">Stuck in a loop of exhaustion and recovery.</p>

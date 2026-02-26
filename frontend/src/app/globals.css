@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  /* Peace of Mind Theme */
+  /* Light Theme (Peace of Mind) */
   --background: #F3EFE9; /* Warm Cream */
   --foreground: #2D1B2D; /* Deep Purple */
 
@@ -9,7 +9,21 @@
   --secondary: #D4B483; /* Gold/Beige Accent */
 
   --surface: #FFFFFF;
+  --surface-alt: #F9F7F4;
   --border: #E5E0D8;
+}
+
+.dark {
+  /* Dark Theme */
+  --background: #1A1A1A; /* Very dark gray */
+  --foreground: #F3EFE9; /* Warm Cream */
+
+  --primary: #D4B483; /* Gold/Beige Accent instead of purple */
+  --secondary: #4A2B4A; /* Mauve as accent */
+
+  --surface: #262626; /* Slightly lighter gray for cards */
+  --surface-alt: #333333;
+  --border: #404040;
 }
 
 @theme inline {
@@ -18,6 +32,7 @@
   --color-primary: var(--primary);
   --color-secondary: var(--secondary);
   --color-surface: var(--surface);
+  --color-surface-alt: var(--surface-alt);
   --color-border: var(--border);
 
   /* Typography */

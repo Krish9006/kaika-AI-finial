@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function InsightReport() {
     return (
-        <section className="py-16 md:py-24 bg-white overflow-hidden">
+        <section className="py-16 md:py-24 bg-surface overflow-hidden">
             <div className="max-w-7xl mx-auto px-6 md:px-12 grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
 
                 <div className="order-2 lg:order-1 relative flex items-center justify-center">

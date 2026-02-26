@@ -25,7 +25,7 @@ export default function EarlyAccessModal({ isOpen, onClose }) {
             ></div>
 
             {/* Modal Content */}
-            <div className="relative bg-white rounded-3xl max-w-lg w-full p-8 md:p-10 shadow-2xl overflow-y-auto max-h-[90vh]">
+            <div className="relative bg-surface rounded-3xl max-w-lg w-full p-8 md:p-10 shadow-2xl overflow-y-auto max-h-[90vh]">
                 <button
                     onClick={onClose}
                     className="absolute top-6 right-6 text-slate-400 hover:text-slate-600 transition-colors"
@@ -96,7 +96,7 @@ export default function EarlyAccessModal({ isOpen, onClose }) {
                             </div>
                             <button
                                 type="submit"
-                                className="w-full bg-slate-900 hover:bg-slate-800 text-white font-bold py-4 rounded-xl shadow-xl shadow-slate-900/20 active:scale-[0.98] transition-all"
+                                className="w-full bg-slate-900 hover:bg-slate-800 text-background font-bold py-4 rounded-xl shadow-xl shadow-slate-900/20 active:scale-[0.98] transition-all"
                             >
                                 Join Early Access
                             </button>
